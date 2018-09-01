@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Substrings
 {
   Scanner s=new Scanner(System.in);
-  String s1=s.next();
+  String s1="xyz";//in case of user input -----> String s1=s.next();
   int i=0;
   void get() 
  {
@@ -29,7 +29,7 @@ public class Substrings
 		
             Substrings s=new Substrings();
             s.get();
-			s.dis();
+	    s.dis();
 	 }
 
 }
