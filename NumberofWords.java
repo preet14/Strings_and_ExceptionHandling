@@ -9,7 +9,7 @@ public class NumberofWords
         {
 	    while(i<s.length()) 
                {
-                   if(s.charAt(i)==' ') 
+                   if(s.charAt(i)==' ' && s.charAt(i+1)!=' ') 
                    {
 	           count++;
                    }i++;
